@@ -1,4 +1,4 @@
-package com.sercan.yigit.server.driven.ui.ui.theme
+package com.sercan.yigit.server.driven.presentation.ui.theme
 
 import androidx.compose.material3.Typography
 import androidx.compose.ui.text.TextStyle

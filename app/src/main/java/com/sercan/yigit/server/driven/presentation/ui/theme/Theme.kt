@@ -1,4 +1,4 @@
-package com.sercan.yigit.server.driven.ui.ui.theme
+package com.sercan.yigit.server.driven.presentation.ui.theme
 
 import android.os.Build
 import androidx.compose.foundation.isSystemInDarkTheme
