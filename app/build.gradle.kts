@@ -2,7 +2,7 @@ plugins {
     alias(libs.plugins.android.application)
     alias(libs.plugins.kotlin.android)
     alias(libs.plugins.hiltAndroid)
-    kotlin("kapt") version "1.9.0"
+    alias(libs.plugins.ksp)
 }
 
 android {
@@ -69,7 +69,7 @@ dependencies {
     debugImplementation(libs.androidx.ui.tooling)
     debugImplementation(libs.androidx.ui.test.manifest)
     // Accompanist Pager
-    implementation (libs.accompanist.pager)
+    implementation(libs.accompanist.pager)
     // Retrofit
     implementation(libs.retrofit)
     implementation(libs.converter.gson)
@@ -79,6 +79,6 @@ dependencies {
     implementation(libs.coil.compose)
     //hilt
     implementation (libs.hilt.android)
-    kapt (libs.hilt.compiler)
-    implementation (libs.androidx.hilt.navigation.compose)
+    ksp(libs.hilt.compiler)
+    implementation(libs.androidx.hilt.navigation.compose)
 }
