@@ -11,14 +11,14 @@ import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
-import com.sercan.yigit.server.driven.ui.ui.theme.ServerdrivenuiTheme
+import com.sercan.yigit.server.driven.ui.ui.theme.ServerDrivenUiTheme
 
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
         setContent {
-            ServerdrivenuiTheme {
+            ServerDrivenUiTheme {
                 Scaffold(modifier = Modifier.fillMaxSize()) { innerPadding ->
                     Greeting(
                         name = "Android",
@@ -41,7 +41,7 @@ fun Greeting(name: String, modifier: Modifier = Modifier) {
 @Preview(showBackground = true)
 @Composable
 fun GreetingPreview() {
-    ServerdrivenuiTheme {
+    ServerDrivenUiTheme {
         Greeting("Android")
     }
 }
