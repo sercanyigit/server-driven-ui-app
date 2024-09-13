@@ -2,6 +2,31 @@
   "data": [
     {
       "type": "UNKNOWN"
+    },
+    {
+      "type": "SLIDER",
+      "children": [
+        {
+          "id": "banner1",
+          "value": "banner1",
+          "action": "DETAIL"
+        },
+        {
+          "id": "banner2",
+          "value": "banner2",
+          "action": "DETAIL"
+        },
+        {
+          "id": "banner3",
+          "value": "banner3",
+          "action": "DETAIL"
+        },
+        {
+          "id": "banner4",
+          "value": "banner4",
+          "action": "DETAIL"
+        }
+      ]
     }
   ]
 }

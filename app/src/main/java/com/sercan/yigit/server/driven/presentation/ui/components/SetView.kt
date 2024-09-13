@@ -1,3 +1,5 @@
+@file:OptIn(ExperimentalPagerApi::class)
+
 package com.sercan.yigit.server.driven.presentation.ui.components
 
 import com.sercan.yigit.server.driven.domain.model.ActionType
@@ -8,7 +10,7 @@ import android.content.Context
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.lifecycle.LifecycleCoroutineScope
-
+import com.google.accompanist.pager.ExperimentalPagerApi
 
 
 @Composable
@@ -24,10 +26,7 @@ fun SetView(
             applicationContext = applicationContext,
             lifecycleScope = lifecycleScope,
             onClickAction = { actionType, id ->
-                onClickAction(
-                    actionType,
-                    id
-                )
+                onClickAction(actionType, id)
             }
         )
     }
@@ -47,11 +46,14 @@ private fun checkUiType(
             applicationContext = applicationContext,
             lifecycleScope = lifecycleScope,
             onClickAction = { actionType, id ->
-                onClickAction(
-                    actionType,
-                    id
-                )
+                onClickAction(actionType, id)
             }
+        )
+        ViewType.SLIDER -> HorizontalSliderComponent(
+            value = value,
+            applicationContext = applicationContext,
+            lifecycleScope = lifecycleScope,
+            onClickAction = {}
         )
 
         else -> Unit

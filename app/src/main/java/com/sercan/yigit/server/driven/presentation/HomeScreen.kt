@@ -27,10 +27,10 @@ import com.sercan.yigit.server.driven.util.Resource
 
 @Composable
 fun HomeScreen(
-mainViewModel: HomeScreenViewModel = hiltViewModel(),
+homeViewModel: HomeScreenViewModel = hiltViewModel(),
 navigateToOtherScreen: (ActionType, String) -> Unit
 ) {
-    val data = mainViewModel.data
+    val data = homeViewModel.data
 
     val lifecycleOwner = LocalLifecycleOwner.current
     val context = LocalContext.current
@@ -47,10 +47,7 @@ navigateToOtherScreen: (ActionType, String) -> Unit
             applicationContext = context,
             lifecycleScope = lifecycleOwner.lifecycleScope,
             onClickAction = { actionType, id ->
-                navigateToOtherScreen(
-                    actionType,
-                    id
-                )
+                navigateToOtherScreen(actionType, id)
             }
         )
     }
@@ -92,10 +89,7 @@ fun ShowScaffold(
         applicationContext = applicationContext,
         lifecycleScope,
         onClickAction = { actionType, id ->
-            onClickAction(
-                actionType,
-                id
-            )
+            onClickAction(actionType, id)
         }
     )
 }
