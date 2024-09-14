@@ -1,30 +1,833 @@
 {
   "data": [
     {
-      "type": "UNKNOWN"
-    },
-    {
-      "type": "SLIDER",
+      "type": "VERTICAL_LIST",
       "children": [
         {
-          "id": "banner1",
-          "value": "banner1",
-          "action": "DETAIL"
+          "type": "VERTICAL_SPACER",
+          "height": "16"
         },
         {
-          "id": "banner2",
-          "value": "banner2",
-          "action": "DETAIL"
+          "type": "SIMPLE_HEADER_TEXT",
+          "value": "Kampanyalar"
         },
         {
-          "id": "banner3",
-          "value": "banner3",
-          "action": "DETAIL"
+          "type": "VERTICAL_SPACER",
+          "height": "8"
         },
         {
-          "id": "banner4",
-          "value": "banner4",
-          "action": "DETAIL"
+          "type": "SLIDER",
+          "children": [
+            {
+              "id": "banner1",
+              "value": "https://i.ibb.co/fnmGCdC/banner4.webp",
+              "action": "DETAIL"
+            },
+            {
+              "id": "banner2",
+              "value": "https://i.ibb.co/VCC73Wn/banner3.webp",
+              "action": "DETAIL"
+            },
+            {
+              "id": "banner3",
+              "value": "https://i.ibb.co/q0SVQ4x/banner2.webp",
+              "action": "DETAIL"
+            },
+            {
+              "id": "banner4",
+              "value": "https://i.ibb.co/5Wq2ybw/banner1.webp",
+              "action": "DETAIL"
+            }
+          ]
+        },
+        {
+          "type": "VERTICAL_SPACER",
+          "height": "16"
+        },
+        {
+          "type": "SIMPLE_HEADER_TEXT",
+          "value": "Mutfaklar"
+        },
+        {
+          "type": "VERTICAL_SPACER",
+          "height": "8"
+        },
+        {
+          "type": "HORIZONTAL_LIST",
+          "children": [
+            {
+              "type": "COLUMN",
+              "alignment": "test",
+              "children": [
+                {
+                  "type": "IMAGE",
+                  "value": "https://i.ibb.co/JFFpmsv/burger.webp",
+                  "action": "LIST",
+                  "id": "burger",
+                  "height": "72",
+                  "width": "72",
+                  "radius": "45"
+                },
+                {
+                  "type": "VERTICAL_SPACER",
+                  "height": "6"
+                },
+                {
+                  "type": "TEXT",
+                  "value": "Burger"
+                }
+              ]
+            },
+            {
+              "type": "HORIZONTAL_SPACER",
+              "width": "16"
+            },
+            {
+              "type": "COLUMN",
+              "alignment": "test",
+              "children": [
+                {
+                  "type": "IMAGE",
+                  "value": "https://i.ibb.co/68w7NJW/cigkofte.webp",
+                  "action": "LIST",
+                  "id": "cigkofte",
+                  "height": "72",
+                  "width": "72",
+                  "radius": "45"
+                },
+                {
+                  "type": "VERTICAL_SPACER",
+                  "height": "6"
+                },
+                {
+                  "type": "TEXT",
+                  "value": "Çig Köfte"
+                }
+              ]
+            },
+            {
+              "type": "HORIZONTAL_SPACER",
+              "width": "16"
+            },
+            {
+              "type": "COLUMN",
+              "alignment": "test",
+              "children": [
+                {
+                  "type": "IMAGE",
+                  "value": "https://i.ibb.co/82pcRwy/doner.webp",
+                  "action": "LIST",
+                  "id": "doner",
+                  "height": "72",
+                  "width": "72",
+                  "radius": "45"
+                },
+                {
+                  "type": "VERTICAL_SPACER",
+                  "height": "6"
+                },
+                {
+                  "type": "TEXT",
+                  "value": "Döner"
+                }
+              ]
+            },
+            {
+              "type": "HORIZONTAL_SPACER",
+              "width": "16"
+            },
+            {
+              "type": "COLUMN",
+              "alignment": "test",
+              "children": [
+                {
+                  "type": "IMAGE",
+                  "value": "https://i.ibb.co/4W36bx8/kahve.webp",
+                  "action": "LIST",
+                  "id": "kahve",
+                  "height": "72",
+                  "width": "72",
+                  "radius": "45"
+                },
+                {
+                  "type": "VERTICAL_SPACER",
+                  "height": "6"
+                },
+                {
+                  "type": "TEXT",
+                  "value": "Kahve"
+                }
+              ]
+            },
+            {
+              "type": "HORIZONTAL_SPACER",
+              "width": "16"
+            },
+            {
+              "type": "COLUMN",
+              "alignment": "test",
+              "children": [
+                {
+                  "type": "IMAGE",
+                  "value": "https://i.ibb.co/nnXRnfh/kebap.webp",
+                  "action": "LIST",
+                  "id": "kebap",
+                  "height": "72",
+                  "width": "72",
+                  "radius": "45"
+                },
+                {
+                  "type": "VERTICAL_SPACER",
+                  "height": "6"
+                },
+                {
+                  "type": "TEXT",
+                  "value": "Kebap"
+                }
+              ]
+            },
+            {
+              "type": "HORIZONTAL_SPACER",
+              "width": "16"
+            },
+            {
+              "type": "COLUMN",
+              "alignment": "test",
+              "children": [
+                {
+                  "type": "IMAGE",
+                  "value": "https://i.ibb.co/BqXxPRT/kofte.webp",
+                  "action": "LIST",
+                  "id": "kofte",
+                  "height": "72",
+                  "width": "72",
+                  "radius": "45"
+                },
+                {
+                  "type": "VERTICAL_SPACER",
+                  "height": "6"
+                },
+                {
+                  "type": "TEXT",
+                  "value": "Köfte"
+                }
+              ]
+            },
+            {
+              "type": "HORIZONTAL_SPACER",
+              "width": "16"
+            },
+            {
+              "type": "COLUMN",
+              "alignment": "test",
+              "children": [
+                {
+                  "type": "IMAGE",
+                  "value": "https://i.ibb.co/Tqc9pXp/pizza.webp",
+                  "action": "LIST",
+                  "id": "pizza",
+                  "height": "72",
+                  "width": "72",
+                  "radius": "45"
+                },
+                {
+                  "type": "VERTICAL_SPACER",
+                  "height": "6"
+                },
+                {
+                  "type": "TEXT",
+                  "value": "Pizza"
+                }
+              ]
+            },
+            {
+              "type": "HORIZONTAL_SPACER",
+              "width": "16"
+            },
+            {
+              "type": "COLUMN",
+              "alignment": "test",
+              "children": [
+                {
+                  "type": "IMAGE",
+                  "value": "https://i.ibb.co/tBNqDxk/tavuk.webp",
+                  "action": "LIST",
+                  "id": "tavuk",
+                  "height": "72",
+                  "width": "72",
+                  "radius": "45"
+                },
+                {
+                  "type": "VERTICAL_SPACER",
+                  "height": "6"
+                },
+                {
+                  "type": "TEXT",
+                  "value": "Tavuk"
+                }
+              ]
+            },
+            {
+              "type": "HORIZONTAL_SPACER",
+              "width": "16"
+            },
+            {
+              "type": "COLUMN",
+              "alignment": "test",
+              "children": [
+                {
+                  "type": "IMAGE",
+                  "value": "https://i.ibb.co/YQLdJ39/tatlilar.webp",
+                  "action": "LIST",
+                  "id": "tatli",
+                  "height": "72",
+                  "width": "72",
+                  "radius": "45"
+                },
+                {
+                  "type": "VERTICAL_SPACER",
+                  "height": "6"
+                },
+                {
+                  "type": "TEXT",
+                  "value": "Tatlılar"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "VERTICAL_SPACER",
+          "height": "8"
+        },
+        {
+          "type": "SIMPLE_HEADER_TEXT",
+          "value": "Popüler Restoranlar"
+        },
+        {
+          "type": "HORIZONTAL_LIST",
+          "children": [
+            {
+              "type": "COLUMN",
+              "children": [
+                {
+                  "type": "IMAGE",
+                  "value": "https://i.ibb.co/8Y9DZ0B/bjww-listing.webp",
+                  "radius": "16",
+                  "height": "180",
+                  "width": "150"
+                },
+                {
+                  "type": "VERTICAL_SPACER",
+                  "height": "8"
+                },
+                {
+                  "type": "TEXT",
+                  "textType": "SEMI_BOLD",
+                  "textStyle": "TITLE",
+                  "value": "Pizza Pizza",
+                  "size": "150"
+                },
+                {
+                  "type": "VERTICAL_SPACER",
+                  "height": "4"
+                },
+                {
+                  "type": "ROW",
+                  "children": [
+                    {
+                      "type": "RATING",
+                      "value": "4.2"
+                    },
+                    {
+                      "type": "TEXT",
+                      "value": " 45 dk"
+                    }
+                  ]
+                },
+                {
+                  "type": "VERTICAL_SPACER",
+                  "height": "4"
+                },
+                {
+                  "type": "TEXT",
+                  "value": "%20 indirim",
+                  "textStyle": "BODY"
+                }
+              ]
+            },
+            {
+              "type": "HORIZONTAL_SPACER",
+              "width": "16"
+            },
+            {
+              "type": "COLUMN",
+              "children": [
+                {
+                  "type": "IMAGE",
+                  "value": "https://i.ibb.co/ZzqBkBY/oosq-listing.webp",
+                  "radius": "16",
+                  "height": "180",
+                  "width": "150"
+                },
+                {
+                  "type": "VERTICAL_SPACER",
+                  "height": "8"
+                },
+                {
+                  "type": "TEXT",
+                  "textType": "SEMI_BOLD",
+                  "textStyle": "TITLE",
+                  "value": "Kumru Sandeviç",
+                  "size": "150"
+                },
+                {
+                  "type": "VERTICAL_SPACER",
+                  "height": "4"
+                },
+                {
+                  "type": "ROW",
+                  "children": [
+                    {
+                      "type": "RATING",
+                      "value": "4.0"
+                    },
+                    {
+                      "type": "TEXT",
+                      "value": " 26 dk"
+                    }
+                  ]
+                },
+                {
+                  "type": "VERTICAL_SPACER",
+                  "height": "4"
+                },
+                {
+                  "type": "TEXT",
+                  "value": "10% indirim",
+                  "textStyle": "BODY"
+                }
+              ]
+            },
+            {
+              "type": "HORIZONTAL_SPACER",
+              "width": "16"
+            },
+            {
+              "type": "COLUMN",
+              "children": [
+                {
+                  "type": "IMAGE",
+                  "value": "https://i.ibb.co/3ShF3TH/j3u1-listing.webp",
+                  "radius": "16",
+                  "height": "180",
+                  "width": "150"
+                },
+                {
+                  "type": "VERTICAL_SPACER",
+                  "height": "8"
+                },
+                {
+                  "type": "TEXT",
+                  "textType": "SEMI_BOLD",
+                  "textStyle": "TITLE",
+                  "value": "Abc Kebap",
+                  "size": "150"
+                },
+                {
+                  "type": "VERTICAL_SPACER",
+                  "height": "4"
+                },
+                {
+                  "type": "ROW",
+                  "children": [
+                    {
+                      "type": "RATING",
+                      "value": "4.4"
+                    },
+                    {
+                      "type": "TEXT",
+                      "value": " 15 dk"
+                    }
+                  ]
+                },
+                {
+                  "type": "VERTICAL_SPACER",
+                  "height": "4"
+                },
+                {
+                  "type": "TEXT",
+                  "value": "%25 indirim",
+                  "textStyle": "BODY"
+                }
+              ]
+            },
+            {
+              "type": "HORIZONTAL_SPACER",
+              "width": "16"
+            },
+            {
+              "type": "COLUMN",
+              "children": [
+                {
+                  "type": "IMAGE",
+                  "value": "https://i.ibb.co/25CG1cQ/q4ix-listing.webp",
+                  "radius": "16",
+                  "height": "180",
+                  "width": "150"
+                },
+                {
+                  "type": "VERTICAL_SPACER",
+                  "height": "8"
+                },
+                {
+                  "type": "TEXT",
+                  "textType": "SEMI_BOLD",
+                  "textStyle": "TITLE",
+                  "value": "Android Döner",
+                  "size": "150"
+                },
+                {
+                  "type": "VERTICAL_SPACER",
+                  "height": "4"
+                },
+                {
+                  "type": "ROW",
+                  "children": [
+                    {
+                      "type": "RATING",
+                      "value": "4.7"
+                    },
+                    {
+                      "type": "TEXT",
+                      "value": " 10 dk"
+                    }
+                  ]
+                },
+                {
+                  "type": "VERTICAL_SPACER",
+                  "height": "4"
+                }
+              ]
+            },
+            {
+              "type": "HORIZONTAL_SPACER",
+              "width": "16"
+            },
+            {
+              "type": "COLUMN",
+              "children": [
+                {
+                  "type": "IMAGE",
+                  "value": "https://i.ibb.co/K0qpbwf/v1y3-listing.webp",
+                  "radius": "16",
+                  "height": "180",
+                  "width": "150"
+                },
+                {
+                  "type": "VERTICAL_SPACER",
+                  "height": "8"
+                },
+                {
+                  "type": "TEXT",
+                  "textType": "SEMI_BOLD",
+                  "textStyle": "TITLE",
+                  "value": "Pidecim",
+                  "size": "150"
+                },
+                {
+                  "type": "VERTICAL_SPACER",
+                  "height": "4"
+                },
+                {
+                  "type": "ROW",
+                  "children": [
+                    {
+                      "type": "RATING",
+                      "value": "4.3"
+                    },
+                    {
+                      "type": "TEXT",
+                      "value": " 12 dk"
+                    }
+                  ]
+                },
+                {
+                  "type": "VERTICAL_SPACER",
+                  "height": "4"
+                },
+                {
+                  "type": "TEXT",
+                  "value": "50% indirim",
+                  "textStyle": "BODY"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "VERTICAL_SPACER",
+          "height": "16"
+        },
+        {
+          "type": "SIMPLE_HEADER_TEXT",
+          "value": "Popüler Restoranlar"
+        },
+        {
+          "type": "VERTICAL_SPACER",
+          "height": "8"
+        },
+        {
+          "type": "CARD",
+          "padding": "16",
+          "radius": "16",
+          "children": [
+            {
+              "type": "COLUMN",
+              "children": [
+                {
+                  "type": "IMAGE",
+                  "value": "https://i.ibb.co/K0qpbwf/v1y3-listing.webp",
+                  "height": "180",
+                  "width": "400"
+                },
+                {
+                  "type": "VERTICAL_SPACER",
+                  "height": "16"
+                },
+                {
+                  "type": "TEXT",
+                  "textType": "SEMI_BOLD",
+                  "textStyle": "HEADLINE",
+                  "value": "Pidecim"
+                },
+                {
+                  "type": "VERTICAL_SPACER",
+                  "height": "4"
+                },
+                {
+                  "type": "ROW",
+                  "children": [
+                    {
+                      "type": "RATING",
+                      "value": "4.7"
+                    },
+                    {
+                      "type": "TEXT",
+                      "value": " 10 dk",
+                      "textStyle": "SUBTITLE"
+                    }
+                  ]
+                },
+                {
+                  "type": "VERTICAL_SPACER",
+                  "height": "4"
+                },
+                {
+                  "type": "TEXT",
+                  "value": "20% indirim",
+                  "textStyle": "BODY"
+                },
+                {
+                  "type": "VERTICAL_SPACER",
+                  "height": "8"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "VERTICAL_SPACER",
+          "height": "16"
+        },
+        {
+          "type": "CARD",
+          "padding": "16",
+          "radius": "16",
+          "children": [
+            {
+              "type": "COLUMN",
+              "children": [
+                {
+                  "type": "IMAGE",
+                  "value": "https://i.ibb.co/25CG1cQ/q4ix-listing.webp",
+                  "height": "180",
+                  "width": "400"
+                },
+                {
+                  "type": "VERTICAL_SPACER",
+                  "height": "16"
+                },
+                {
+                  "type": "TEXT",
+                  "textType": "SEMI_BOLD",
+                  "textStyle": "HEADLINE",
+                  "value": "Android Döner"
+                },
+                {
+                  "type": "VERTICAL_SPACER",
+                  "height": "4"
+                },
+                {
+                  "type": "ROW",
+                  "children": [
+                    {
+                      "type": "RATING",
+                      "value": "3.7"
+                    },
+                    {
+                      "type": "TEXT",
+                      "value": " 15 dk",
+                      "textStyle": "BODY"
+                    }
+                  ]
+                },
+                {
+                  "type": "VERTICAL_SPACER",
+                  "height": "4"
+                },
+                {
+                  "type": "TEXT",
+                  "value": "10% indirim",
+                  "textStyle": "BODY"
+                },
+                {
+                  "type": "VERTICAL_SPACER",
+                  "height": "8"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "VERTICAL_SPACER",
+          "height": "16"
+        },
+        {
+          "type": "CARD",
+          "padding": "16",
+          "radius": "16",
+          "children": [
+            {
+              "type": "COLUMN",
+              "children": [
+                {
+                  "type": "IMAGE",
+                  "value": "https://i.ibb.co/3ShF3TH/j3u1-listing.webp",
+                  "height": "180",
+                  "width": "400"
+                },
+                {
+                  "type": "VERTICAL_SPACER",
+                  "height": "16"
+                },
+                {
+                  "type": "TEXT",
+                  "textType": "SEMI_BOLD",
+                  "textStyle": "HEADLINE",
+                  "value": "Abc Kebap"
+                },
+                {
+                  "type": "VERTICAL_SPACER",
+                  "height": "4"
+                },
+                {
+                  "type": "ROW",
+                  "children": [
+                    {
+                      "type": "RATING",
+                      "value": "4.2"
+                    },
+                    {
+                      "type": "TEXT",
+                      "value": " 20 dk",
+                      "textStyle": "BODY"
+                    }
+                  ]
+                },
+                {
+                  "type": "VERTICAL_SPACER",
+                  "height": "8"
+                },
+                {
+                  "type": "TEXT",
+                  "value": "15% indirim",
+                  "textStyle": "BODY"
+                },
+                {
+                  "type": "VERTICAL_SPACER",
+                  "height": "8"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "VERTICAL_SPACER",
+          "height": "16"
+        },
+        {
+          "type": "CARD",
+          "padding": "16",
+          "radius": "16",
+          "children": [
+            {
+              "type": "COLUMN",
+              "children": [
+                {
+                  "type": "IMAGE",
+                  "value": "https://i.ibb.co/ZzqBkBY/oosq-listing.webp",
+                  "height": "180",
+                  "width": "400"
+                },
+                {
+                  "type": "VERTICAL_SPACER",
+                  "height": "16"
+                },
+                {
+                  "type": "TEXT",
+                  "textType": "SEMI_BOLD",
+                  "textStyle": "HEADLINE",
+                  "value": "Sandeviç Dünyası"
+                },
+                {
+                  "type": "VERTICAL_SPACER",
+                  "height": "4"
+                },
+                {
+                  "type": "ROW",
+                  "children": [
+                    {
+                      "type": "RATING",
+                      "value": "4.8"
+                    },
+                    {
+                      "type": "TEXT",
+                      "value": " 26 dk",
+                      "textStyle": "BODY"
+                    }
+                  ]
+                },
+                {
+                  "type": "VERTICAL_SPACER",
+                  "height": "4"
+                },
+                {
+                  "type": "TEXT",
+                  "value": "10% indirim",
+                  "textStyle": "BODY"
+                },
+                {
+                  "type": "VERTICAL_SPACER",
+                  "height": "8"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "VERTICAL_SPACER",
+          "height": "30"
         }
       ]
     }

@@ -9,9 +9,9 @@ import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.Dp
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
-import com.sercan.yigit.server.driven.domain.model.Colors
-import com.sercan.yigit.server.driven.domain.model.TextStyles
-import com.sercan.yigit.server.driven.domain.model.TextType
+import com.sercan.yigit.server.driven.domain.model.enums.Colors
+import com.sercan.yigit.server.driven.domain.model.enums.TextStyles
+import com.sercan.yigit.server.driven.domain.model.enums.TextType
 
 fun String?.toDp(): Dp? {
     return this?.toFloat()?.dp

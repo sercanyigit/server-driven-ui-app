@@ -1,6 +1,11 @@
 package com.sercan.yigit.server.driven.domain.model
 
 import com.google.gson.annotations.SerializedName
+import com.sercan.yigit.server.driven.domain.model.enums.ActionType
+import com.sercan.yigit.server.driven.domain.model.enums.Colors
+import com.sercan.yigit.server.driven.domain.model.enums.TextStyles
+import com.sercan.yigit.server.driven.domain.model.enums.TextType
+import com.sercan.yigit.server.driven.domain.model.enums.ViewType
 
 data class RemoteModel(
     @SerializedName("data")
@@ -49,52 +54,3 @@ data class CardItem(
     val type: String? = null
 )
 
-enum class ViewType {
-    UNKNOWN,
-    SCAFFOLD,
-    APP_BAR,
-    ROW,
-    COLUMN,
-    VERTICAL_LIST,
-    HORIZONTAL_LIST,
-    CARD,
-    TEXT,
-    IMAGE,
-    BOX,
-    EDIT_TEXT,
-    SLIDER,
-    VERTICAL_SPACER,
-    HORIZONTAL_SPACER,
-    SIMPLE_HEADER_TEXT,
-    HEADER_WITH_BUTTON,
-    RATING
-}
-
-enum class ActionType {
-    UNKNOWN,
-    LIST,
-    DETAIL
-}
-
-enum class Colors {
-    RED,
-    WHITE,
-    BLUE,
-}
-
-enum class TextType {
-    BOLD,
-    SEMI_BOLD,
-    MEDIUM,
-    NORMAL,
-    LIGHT,
-    THIN
-}
-
-enum class TextStyles {
-    HEADLINE,
-    TITLE,
-    SUBTITLE,
-    BODY,
-    CAPTION
-}
